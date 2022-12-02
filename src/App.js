@@ -1,7 +1,7 @@
 import './App.css';
 import React, { useState } from 'react';
 
-//assign values to sentiments
+//assign values to sentiment
 var sentiments = {
   "-5":"Extremely Negative",
   "-4":"Very Negative",
