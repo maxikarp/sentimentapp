@@ -1,5 +1,5 @@
 import './App.css';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 
 var sentiments = {
   "-5":"Extremely Negative",
@@ -25,7 +25,7 @@ function AnalyzeSentiment(text) {
 function App() {
   const resultHeader = React.useRef(null);
   const sentimentBox = React.useRef(null);
-  const [result, setResult] = useState('Please enter text.')
+  const [result, setResult] = useState('Please enter text.');
 
   const handleClick = (() => {
 
