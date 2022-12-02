@@ -1,38 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(227,109,57);
+}
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+h1{
+  font-family: 'Raleway', sans-serif;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#sentimentBox {
+  height: 300px;
+  width: 500px;
+  resize: none;
+
+  margin: 2rem;
+  padding: 1rem;
+
+  border-radius: 20px;
+  border: none;
+
+  font-size: 1rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+button{
+  width: auto;
+  height: 2.5rem;
+
+  font-size: 1.5rem;
+  font-family: 'Raleway', sans-serif;;
+  color: rgb(227,109,57);
+
+  background-color: white;
+  
+  border-radius: 5px;
+  border-color: rgb(236, 145, 53);
+  border: 2px solid;
 }
+
+h2, h3{
+  font-family: 'Raleway', sans-serif;
+  color: whitesmoke
+}
+
+
