@@ -56,6 +56,9 @@ function App() {
       <button onClick={handleClick}>Analyze Sentiment</button>
       <h2>Result is:</h2>
       <h3 ref={resultHeader} id="resultHeader">{result}</h3>
+      <div id="featureOne">
+        <h2>this is where feature one will go</h2>
+      </div>
     </div>
   );
 }
