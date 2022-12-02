@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sentimentapp/static/css/main.571fc52e.css",
+    "main.css": "/sentimentapp/static/css/main.6b36efe4.css",
     "main.js": "/sentimentapp/static/js/main.ff3dd68e.js",
     "static/js/787.5787bfca.chunk.js": "/sentimentapp/static/js/787.5787bfca.chunk.js",
     "index.html": "/sentimentapp/index.html",
-    "main.571fc52e.css.map": "/sentimentapp/static/css/main.571fc52e.css.map",
+    "main.6b36efe4.css.map": "/sentimentapp/static/css/main.6b36efe4.css.map",
     "main.ff3dd68e.js.map": "/sentimentapp/static/js/main.ff3dd68e.js.map",
     "787.5787bfca.chunk.js.map": "/sentimentapp/static/js/787.5787bfca.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.571fc52e.css",
+    "static/css/main.6b36efe4.css",
     "static/js/main.ff3dd68e.js"
   ]
 }
